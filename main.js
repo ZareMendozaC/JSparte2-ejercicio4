@@ -19,5 +19,7 @@ function calcular()
 }
 function limpiar(){// esta funcion limpia el campo del número
      numero = document.getElementById("numero").value="";
+     resultado= 0;
+      respuesta.innerHTML = '<br><h4>Prueba otra vez!!</h4><br> <h3 class="animated wobble result">'+resultado+'</h3>';
 }
 
